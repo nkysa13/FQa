@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  background-image: url("assets/images/background-pattern-desktop.svg");
+  background-color: hsl(275, 100%, 97%);
+  background-repeat: repeat-x;
+  min-height: 100vh;
+  min-width: 100%;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+}
+.qusetion {
+  height: 80px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+.qusetion:hover {
+  color: rgb(134, 60, 175);
+}
+.answer {
+  display: none;
+  padding-bottom: 1rem;
+  color: gray;
+}
+
+.click {
+  display: block;
+}
+.imgClick {
+  content: url("assets/images/icon-minus.svg");
+}
+.card {
+  background-color: white;
+  width: 35rem;
+  padding: 18px;
+  border-radius: 1.5rem;
+}
+.FQa_continer {
+  border-bottom: 0.5px solid hsl(292, 16%, 49%);
+}
+.header {
+  display: flex;
+}
+/* .back {
+  width: 100%;
+  height: 30rem;
+  /* background-image: url("assets/images/background-pattern-desktop.svg"); */
+/* } */
