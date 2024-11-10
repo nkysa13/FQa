@@ -3,7 +3,7 @@
 body {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-
+  font-size: 16px;
   font-style: normal;
   background-image: url("assets/images/background-pattern-desktop.svg");
   background-color: hsl(275, 100%, 97%);
@@ -16,19 +16,20 @@ body {
   padding: 0;
 }
 .qusetion {
-  height: 80px;
+  height: auto;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 700;
+  padding: 18px 0;
 }
 .qusetion:hover {
   color: rgb(134, 60, 175);
 }
 .answer {
   display: none;
-  height: fit-content;
+  height: auto;
   padding-bottom: 1rem;
   color: gray;
 
@@ -50,4 +51,10 @@ body {
 }
 .header {
   display: flex;
+}
+
+@media screen and (max-width: 40rem) {
+  .card {
+    width: 80%;
+  }
 }
